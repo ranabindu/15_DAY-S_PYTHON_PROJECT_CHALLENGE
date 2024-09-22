@@ -1,3 +1,6 @@
+#  QR Code Generator
+
+
 import qrcode                # This imports the qrcode library, which is used to generate QR codes
 from PIL import Image    
 # This imports the Image class from the Python Imaging Library (PIL), used for opening, manipulating, and saving images
@@ -36,8 +39,8 @@ img.save("QrioFyte.png")
 # img.save("QrioFyte.png"): This saves the generated QR code image as a PNG file named QrioFyte.png. The image is saved in the same directory where the script is run.
 
 
+#----------------------------------------------------------------Short Trick ---------------------------------------------------------------------------------------------------------------------------
 
-#Short Trick 
 
 import qrcode as qr
 image = qr.make("https://www.youtube.com/@QrioFyte")
