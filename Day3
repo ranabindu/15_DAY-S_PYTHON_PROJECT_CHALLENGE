@@ -34,3 +34,11 @@ img=qr.make_image(fill_color="white", back_color="black")
 img.save("QrioFyte.png")
 
 # img.save("QrioFyte.png"): This saves the generated QR code image as a PNG file named QrioFyte.png. The image is saved in the same directory where the script is run.
+
+
+
+#Short Trick 
+
+import qrcode as qr
+image = qr.make("https://www.youtube.com/@QrioFyte")
+image.save("QrioFyte_youtube.png")
